@@ -1,13 +1,7 @@
 package com.hinkle.jokeapp.services;
 
-import guru.springframework.norris.chuck.ChuckNorrisQuotes;
-import org.springframework.stereotype.Service;
+public interface JokeService {
 
-@Service
-public class JokeService {
-
-  public String getQuote(){
-    return ChuckNorrisQuotes.getRandomQuote();
-  }
+  String getJoke();
 
 }
